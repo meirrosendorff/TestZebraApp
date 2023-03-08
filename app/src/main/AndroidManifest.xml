@@ -22,6 +22,8 @@
 
     <uses-permission android:name="com.symbol.emdk.permission.EMDK"/>
     <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
 
     <application
         android:allowBackup="true"
@@ -32,6 +34,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TestZebra"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
 
         <activity
